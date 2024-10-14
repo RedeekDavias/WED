@@ -1,0 +1,146 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+/*font-family: "Nerko One", cursive;*/
+*{ 
+margin: 0px;
+padding: 0px;
+border: 0px;
+}
+body{
+    background-image: url(img/boddy.jpg);
+}
+#contenedor{
+	width: 80%;
+	height: auto;
+	margin: auto;
+}
+#encabezado{
+	height: 400px;	
+}
+#botonera{
+    height: 60px;
+   /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#14917e+0,ffffff+100&1+39,0+100 */
+background: linear-gradient(to bottom,  rgba(20,145,126,1) 0%,rgba(112,188,176,1) 39%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  /*font-style: normal;*/
+}
+
+
+#botonera ul{
+    height: 30px;
+	margin:auto;
+	width:60%; 
+}
+#botonera ul li{
+    float: left;
+    text-align: center;
+    list-style-type: none;
+	margin-top: 15px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width: 20%;
+		
+}
+#botonera ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 19px;
+    color: rgba(14,101,143,1.00);	
+}
+#botonera ul li a:hover{
+	color: aqua
+}
+#centro{
+    height: 440px;
+   margin: auto;
+}
+#caja1{
+    width: 45%;
+    float: left;
+    height: 390px;
+    text-align: center;
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#ff7400+0,ff7400+100&0.8+1,0.8+100 */
+background: linear-gradient(to bottom,  rgba(255,116,0,0.8) 0%,rgba(255,116,0,0.8) 1%,rgba(255,116,0,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    margin-left: 35px;
+    margin-right: 10px;
+    margin-top: 10px;
+	/*box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.54);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.54);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.54);*/
+}
+#caja2 {
+    width: 45%;
+    float: left;
+    height: 390px;
+    text-align: center;
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#ff7400+0,ff7400+100&0.8+1,0.8+100 */
+background: linear-gradient(to bottom,  rgba(255,116,0,0.8) 0%,rgba(255,116,0,0.8) 1%,rgba(255,116,0,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+	/*box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.54);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.54);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.54);*/
+}
+#caja1:hover{
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#caja2:hover{
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#pie{
+    text-align: center;
+    background-color: rgba(33,21,108,1.00);
+	color: antiquewhite;
+}
+p{
+    text-align: justify;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-weight: 400;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+h3{
+    font-family: "Nerko One", cursive;
+    color: rgba(52,52,52,1.00);    
+}
+h4{
+    font-family: "Nerko One", cursive;
+    color: rgba(58,58,58,1.00);
+}
+h4 a{
+    text-decoration: none;
+    color: rgba(170,98,24,1.00);
+}
+h4 a:hover{
+    color: rgba(211,175,153,1.00);	
+}
+.cajas{
+    width: 30%;
+    height: 300px;
+    float: left;
+    background: linear-gradient(to bottom,  rgba(255,116,0,0.8) 0%,rgba(255,116,0,0.8) 1%,rgba(255,116,0,0.8) 100%);
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;	
+	display: block;
+}
+.cajas h3{
+    text-align: center;	
+}
+.cajas:hover{
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
